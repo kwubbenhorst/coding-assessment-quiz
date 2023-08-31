@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coding Assessment Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    Q1. What is 2+3?<br>
+    <input type="radio" name="question1" id="correct1">5 <br>
+    <input type="radio" name="question1">8 <br>
+    <input type="radio" name="question1">9 <br>
+    <input type="radio" name="question1">10 <br>
+    
+    Q1. What is 8+3?<br>
+    <input type="radio" name="question2" >2 <br>
+    <input type="radio" name="question2">8 <br>
+    <input type="radio" name="question2" id="correct2">11 <br>
+    <input type="radio" name="question2">9 <br>
+    
+    Q1. What is 28+3?<br>
+    <input type="radio" name="question3" >15 <br>
+    <input type="radio" name="question3"id="correct3">31 <br>
+    <input type="radio" name="question3">10 <br>
+    <input type="radio" name="question3">19 <br>
+    
+    <input type="submit" name="submit" value="SubmitQuiz" onClick="result()">
+    <script type="text/javascript">
+    function result()
+    {
+        var score=0;
+        if(document.getElementById('correct1').checked)
+            {	score++;
+            }
+        if(document.getElementById('correct2').checked)
+            {	score++;
+            }
+        if(document.getElementById('correct3').checked)
+            {	score++;
+            }
+     alert("Your score is:"+score);
+     // to print on browser
+     // document.write("Your score is:"+score);
+    }
+    </script>
+    
+    </body>
+    </html>
+
+    //Sourcecode from Bee Coder, creator of the youtube video "How to create a simple quiz using Html and JavaScript".  He has the link to the code, hosted in his googledrive below the video. 
