@@ -214,6 +214,10 @@ body {
     line-height: 1.2%;
   }
 
+  #highscoresList {
+    list-style: none;
+  }
+
   #highscoresList li:nth-child(odd) {
     background-color: var(--ultramarine);
     color: var(--cool-white);

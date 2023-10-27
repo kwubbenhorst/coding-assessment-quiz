@@ -73,6 +73,9 @@ function viewHighscores(shouldCongratulate) {
   highscoresListEl.innerHTML = "";
   timerEl.textContent = "";
   timerEl.textContent = "Timer: ";
+  startButtonEl.style.display = "none";
+  formEl.style.display = "none";
+  
   var highscores = JSON.parse(localStorage.getItem("highscores")) || [];
 
   for (var i = 0; i < highscores.length; i++) {
