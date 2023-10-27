@@ -37,21 +37,27 @@
             </li>
           </ul>
           <p id="msgArea"></p>
-          <form>
+          <form id="form">
             <p id="initials">
-                <label for="name">Initials: </label>
-                <input type="text" id="Name">
+                <label for="name">Enter Initials: </label>
+                <input type="text" id="name">
             </p>
             <p>
-                <button type="submit"></button>
+                <button type="submit" id="submitButton">Submit</button>
             </p>
           </form>
-          <button id="startOverButton">Go Back</button>
-          <button id="clearHighscoresButton">Clear Highscores</button>
+          <div id = "highscoresArea">
+            <ul id="highscoresList">
+            </ul>
+          </div>
+          <div id = "buttonContainer">
+            <button id="startOverButton">Go Back</button>
+            <button id="clearHighscoresButton">Clear Highscores</button>
+          </div>
         </section>
       </figure>
     </main>
-    <script src="./assets/js/script1.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
 
