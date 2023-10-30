@@ -59,7 +59,6 @@ function init () {
   secondsLeft = 75;
 };
 
-
 // Clear highscores
 function clearHighscores() {
   localStorage.removeItem("highscores");
@@ -156,7 +155,6 @@ function handleFormSubmit(event) {
   }
 }
 
-
 // Function to end the quiz
 function endQuiz() {
   clearInterval(timerInterval);
@@ -164,11 +162,8 @@ function endQuiz() {
   bylineEl.textContent = "All done!";
   bylineEl.setAttribute("style", "margin-top: 50px; font-size: 30px"); 
   msgAreaEl.textContent = "Your final score is " + (score - penalties);
-  var formEl = document.querySelector('form');
   formEl.style.display = 'block';
-  submitButtonEl.style.display = 'block';
 }
-
 
 function evaluateAnswer(event) {
   event.preventDefault();
@@ -191,13 +186,13 @@ function evaluateAnswer(event) {
       setTimeout(function () {
         msgAreaEl.textContent = "";
         endQuiz();
-      }, 2500); 
+      }, 2000); 
     } else {
       setTimeout(function () {
         msgAreaEl.textContent = "";
         quizSlide++;
         displayQuestion();
-      }, 2500);  
+      }, 2000);  
     }
 
   // In the case of a wrong answer the program will render "Wrong!" message to the 
@@ -216,13 +211,13 @@ function evaluateAnswer(event) {
       setTimeout(function () {
         msgAreaEl.textContent = "";
         endQuiz();
-      }, 2500); 
+      }, 2000); 
     } else {
       setTimeout(function () {
         msgAreaEl.textContent = "";
         quizSlide++;
         displayQuestion();
-      }, 2500);
+      }, 2000);
     }
   }  
 }
