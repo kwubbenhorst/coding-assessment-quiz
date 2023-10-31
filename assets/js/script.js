@@ -224,7 +224,6 @@ function evaluateAnswer(event) {
       endQuiz();
       setTimeout(function () {
         msgAreaEl.textContent = "";
-        endQuiz();
       }, 2000); 
     } else {
       setTimeout(function () {
