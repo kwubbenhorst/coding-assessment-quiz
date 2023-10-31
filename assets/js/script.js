@@ -221,9 +221,9 @@ function evaluateAnswer(event) {
     score += secondsLeft;
 
     if (quizSlide === quizArray.length - 1) {
-      endQuiz();
       setTimeout(function () {
         msgAreaEl.textContent = "";
+        endQuiz();
       }, 2000); 
     } else {
       setTimeout(function () {
