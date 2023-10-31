@@ -19,18 +19,25 @@ N/A
 This application is deployed to the world wide web and ready to use in any browser.  Please visit: https://kwubbenhhorst.github.io/coding-assessment-quiz. The following screenshots will illustrate the journey the user will take through the flow of the program:
 
 Landing Page. This is the appearance of the application upon page load or after the Go Back button has been clicked from the highscores screen.
+![Screen Shot 1](https://github.com/kwubbenhorst/coding-assessment-quiz/assets/140316693/31f89e37-0bec-4078-afed-fc23961a55ee)
 
 Quiz Slide presenting the user with the question and their four multiple choice options. Note that the timer now has a value showing.
+![Screen Shot 2](https://github.com/kwubbenhorst/coding-assessment-quiz/assets/140316693/0f05101c-81a5-463b-b9e3-ee91de6a5ab3)
 
 Quiz Slide after an answer has been clicked upon. Shows the message area notifying the user that the question has been answered correctly. This message displays for 2 seconds before the next quiz slide is presented.
+![Screen Shot 3](https://github.com/kwubbenhorst/coding-assessment-quiz/assets/140316693/0de570a4-c122-461b-9bb1-fce7a977c175)
 
 This All Done! page displays the user's final score and invites them to enter their initials in the input box. Upon clicking submit, the next highscores screen will be displayed.  The timer still has a value on the All Done! screen but it is static at whatever value it had when the quiz finished.
+![Screen Shot 4 ](https://github.com/kwubbenhorst/coding-assessment-quiz/assets/140316693/642729ce-05b9-42c2-be16-4dbd7c681f0d)
 
 This highscores screen was captured before the quiz we have been following was taken. Note that the leaderboard is full with 10 entries and the lowest score is 126. 
+![Screen Shot 5](https://github.com/kwubbenhorst/coding-assessment-quiz/assets/140316693/e4c8a2f9-97b3-448b-8eda-d8d350d1d01c)
 
 When the new score of 235 is entered from the quiz we have been following note that it is displayed among the highscores at position number 6 and previous low score of 126 is eliminated. Note also that on the highscores screen the Timer value has been cleared.
+![Screen Shot 6](https://github.com/kwubbenhorst/coding-assessment-quiz/assets/140316693/ed990c7c-dff6-4ffa-a71d-6fdd6922f1f0)
 
 This final slide shows a single entry on the highscores leaderboard. The "clear highscores" button has been hit, a new quiz has been taken and its score entered, and now that is the only entry appearing on the leaderboard.
+![Screen Shot 7](https://github.com/kwubbenhorst/coding-assessment-quiz/assets/140316693/79529343-9c64-45c2-a8de-b7fef75151bf)
 
 ## Credits:
 This application was authored by Karla Wubbenhorst. The background image of the circuitboard was found at https://depositphotos.com/photos/circuit-board.html, and the redketchup color picker (https://redketchup.io/color-picker) was used to the create colour variables to match the colours in the image. StackOverflow was helpful in the construction of the quizArray and how to access various property-values in a complex array of objects with nested arrays. https://code.mu/en/javascript/book/prime/loops/flags/ was helpful in understanding how to pass "flags" into functions. https://www.freecodecamp.org/news/how-to-sort-javascript-array-accurately/#:~:text=The%20sort()%20method%20of,comparing%20their%20Unicode%20code%20points was helpful in teaching me how to sort an array, and https://www.w3schools.com/jsref/jsref_slice_array.asp and https://www.w3schools.com/jsref/jsref_max.asp helped me understand the slice and Math.max methods.
